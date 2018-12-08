@@ -1,0 +1,13 @@
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\bin\Release\WoWRealmlistManager.exe.config
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\bin\Release\WoWRealmlistManager.exe
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\bin\Release\WoWRealmlistManager.pdb
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.GameSelect.resources
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.Main.resources
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.Properties.Resources.resources
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.RealmlistInput.resources
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.csproj.GenerateResource.cache
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.csproj.CoreCompileInputs.cache
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.exe
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.pdb
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.GameSelectInput.resources
+C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.RenameInput.resources
