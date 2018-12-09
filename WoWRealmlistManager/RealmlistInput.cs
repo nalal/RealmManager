@@ -45,9 +45,9 @@ namespace WoWRealmlistManager
                 RealmInput.rli = TBRInput.Text;
                 RealmInput.filename = TBRInput.Text + ".wtf";
                 string filename = RealmInput.filename;
-                Directory.CreateDirectory(Main.datadir);
-                File.Create(Path.Combine(Main.datadir, RealmInput.filename)).Dispose();
-                using (TextWriter tw = new StreamWriter(Path.Combine(Main.datadir, RealmInput.filename)))
+                Directory.CreateDirectory(Path.Combine(Main.datadir, Main.game));
+                File.Create(Path.Combine(Main.datadir, Main.game, RealmInput.filename)).Dispose();
+                using (TextWriter tw = new StreamWriter(Path.Combine(Main.datadir, Main.game, RealmInput.filename)))
                 {
                     tw.WriteLine("set realmlist " + TBRInput.Text);
                 }

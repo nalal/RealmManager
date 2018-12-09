@@ -12,3 +12,17 @@ C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Debug\Wo
 C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.pdb
 C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.GameSelectInput.resources
 C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.RenameInput.resources
+D:\Git\RealmManager\WoWRealmlistManager\bin\Debug\WoWRealmlistManager.exe.config
+D:\Git\RealmManager\WoWRealmlistManager\bin\Debug\WoWRealmlistManager.exe
+D:\Git\RealmManager\WoWRealmlistManager\bin\Debug\WoWRealmlistManager.pdb
+D:\Git\RealmManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.csprojAssemblyReference.cache
+D:\Git\RealmManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.GameSelect.resources
+D:\Git\RealmManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.GameSelectInput.resources
+D:\Git\RealmManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.Main.resources
+D:\Git\RealmManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.Properties.Resources.resources
+D:\Git\RealmManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.RealmlistInput.resources
+D:\Git\RealmManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.RenameInput.resources
+D:\Git\RealmManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.csproj.GenerateResource.cache
+D:\Git\RealmManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.csproj.CoreCompileInputs.cache
+D:\Git\RealmManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.exe
+D:\Git\RealmManager\WoWRealmlistManager\obj\Debug\WoWRealmlistManager.pdb

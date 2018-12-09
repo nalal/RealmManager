@@ -11,3 +11,16 @@ C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\
 C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.pdb
 C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.GameSelectInput.resources
 C:\Users\Nalal\source\repos\WoWRealmlistManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.RenameInput.resources
+D:\Git\RealmManager\WoWRealmlistManager\bin\Release\WoWRealmlistManager.exe.config
+D:\Git\RealmManager\WoWRealmlistManager\bin\Release\WoWRealmlistManager.exe
+D:\Git\RealmManager\WoWRealmlistManager\bin\Release\WoWRealmlistManager.pdb
+D:\Git\RealmManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.GameSelect.resources
+D:\Git\RealmManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.GameSelectInput.resources
+D:\Git\RealmManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.Main.resources
+D:\Git\RealmManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.Properties.Resources.resources
+D:\Git\RealmManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.RealmlistInput.resources
+D:\Git\RealmManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.RenameInput.resources
+D:\Git\RealmManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.csproj.GenerateResource.cache
+D:\Git\RealmManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.csproj.CoreCompileInputs.cache
+D:\Git\RealmManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.exe
+D:\Git\RealmManager\WoWRealmlistManager\obj\Release\WoWRealmlistManager.pdb

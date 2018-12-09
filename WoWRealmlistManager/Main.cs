@@ -40,12 +40,13 @@ namespace WoWRealmlistManager
             if (game != "")
             {
                 Form inp = new RealmlistInput();
+                game = LCName.Text;
                 inp.ShowDialog();
                 if (RealmlistInput.RealmInput.filename != "")
                 {
                     string addval = RealmlistInput.RealmInput.rli;
                     string fileval = RealmlistInput.RealmInput.filename;
-                    string realmfile = Path.Combine(datadir, fileval);
+                    //string realmfile = Path.Combine(datadir, game, fileval);
                     //LTest.Text = ("TEST:\n" + addval + "\n" + fileval + "\n" + realmfile);
                     RLList.Items.Add(addval);
                 }
