@@ -12,12 +12,14 @@ namespace WoWRealmlistManager
 {
     public partial class RenameInput : Form
     {
+        //Inits public var
         public static string newname = "";
         public RenameInput()
         {
             InitializeComponent();
         }
 
+        //Sets public new name var
         private void BAccept_Click(object sender, EventArgs e)
         {
             if (TBName.Text != "")
@@ -31,6 +33,7 @@ namespace WoWRealmlistManager
             }
         }
 
+        //Closes dialog
         private void BCancel_Click(object sender, EventArgs e)
         {
             this.Close();

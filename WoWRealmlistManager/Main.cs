@@ -25,16 +25,20 @@ namespace WoWRealmlistManager
 {
     public partial class Main : Form
     {
+        //Init public vars
         public static string game = "";
         public static string pdir = Path.GetDirectoryName(Application.ExecutablePath);
         public static string wowdir = Path.Combine(pdir, "WoWDIRs");
         public static string datadir = Path.Combine(pdir, "RLFiles");
+
+        //Init program and client dir
         public Main()
         {
             InitializeComponent();
             Directory.CreateDirectory(wowdir);
         }
 
+        //Opens realmlist input dialog and adds to list
         private void BAdd_Click(object sender, EventArgs e)
         {
             if (game != "")
@@ -46,8 +50,6 @@ namespace WoWRealmlistManager
                 {
                     string addval = RealmlistInput.RealmInput.rli;
                     string fileval = RealmlistInput.RealmInput.filename;
-                    //string realmfile = Path.Combine(datadir, game, fileval);
-                    //LTest.Text = ("TEST:\n" + addval + "\n" + fileval + "\n" + realmfile);
                     RLList.Items.Add(addval);
                 }
             }
@@ -57,6 +59,7 @@ namespace WoWRealmlistManager
             }
         }
 
+        //Pushes selected realmlist to client
         private void BLoad_Click(object sender, EventArgs e)
         {
             if (game != "")
@@ -83,6 +86,7 @@ namespace WoWRealmlistManager
             }
          }
 
+        //Removes realmlist entry
         private void BRemove_Click(object sender, EventArgs e)
         {
             if (game != "")
@@ -104,6 +108,7 @@ namespace WoWRealmlistManager
             }
         }
 
+        //Opens select game dialog
         private void BSelectGame_Click(object sender, EventArgs e)
         {
             Form gsel = new GameSelect();
@@ -128,6 +133,7 @@ namespace WoWRealmlistManager
             }
         }
 
+        //Closes app and starts wow.exe for selected client
         private void BGameStart_Click(object sender, EventArgs e)
         {
             if (game != "")
@@ -141,6 +147,7 @@ namespace WoWRealmlistManager
             }
         }
 
+        //Adds realmlist file from file
         private void BAddFile_Click(object sender, EventArgs e)
         {
             if (game != "")
@@ -153,7 +160,6 @@ namespace WoWRealmlistManager
                     string realmip = File.ReadAllText(fileloc);
                     game = LCName.Text;
                     realmip = realmip.Replace("set realmlist ", "");
-                    //realmip = realmip.Remove(realmip.Length - 2);
                     if (!File.Exists(Path.Combine(datadir, game, realmip + ".wtf")))
                     {
                         File.Copy(fileloc, Path.Combine(datadir, game, realmip + ".wtf"));

@@ -19,12 +19,14 @@ namespace WoWRealmlistManager
             InitializeComponent();
         }
 
+        //Init public vars in class
         public class RealmInput
         {
             public static string rli = "";
             public static string filename = "";
         }
 
+        //Gets new realmlist info and creates file in relmlist DIR
         private void BAccept_Click(object sender, EventArgs e)
         {
             if (TBRInput.Text == "")
@@ -54,6 +56,7 @@ namespace WoWRealmlistManager
             }
         }
 
+        //Close dialog and clear var
         private void BClose_Click(object sender, EventArgs e)
         {
             RealmInput.filename = "";

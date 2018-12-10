@@ -19,12 +19,14 @@ namespace WoWRealmlistManager
             InitializeComponent();
         }
 
+        //Opens directory select and pushes to TBDIR
         private void BBrowse_Click(object sender, EventArgs e)
         {
             FBDWoWDIR.ShowDialog();
             TBDIR.Text = FBDWoWDIR.SelectedPath;
         }
 
+        //Adds game to game list from DIR with name
         private void BAccept_Click(object sender, EventArgs e)
         {
             if (TBName.Text == "" || TBDIR.Text == "")
@@ -64,6 +66,7 @@ namespace WoWRealmlistManager
             }
         }
 
+        //Closes dialog
         private void BCancel_Click(object sender, EventArgs e)
         {
             this.Close();

@@ -13,12 +13,14 @@ namespace WoWRealmlistManager
 {
     public partial class GameSelect : Form
     {
+        //Inits public vars for main
         public static string gamename = "";
         public static string gamever = "";
         public static string gamedir = "";
         public GameSelect()
         {
             InitializeComponent();
+            //Checks for games and adds them to list
             if (Directory.GetFiles(Main.wowdir) != null)
             {
                 string[] DIRLists = Directory.GetFiles(Main.wowdir);
@@ -31,6 +33,7 @@ namespace WoWRealmlistManager
             }
         }
 
+        //Adds item to game list
         private void BAddG_Click(object sender, EventArgs e)
         {
             Form GS = new GameSelectInput();
@@ -45,6 +48,7 @@ namespace WoWRealmlistManager
             }
         }
 
+        //Removes item from game list
         private void BRemoveG_Click(object sender, EventArgs e)
         {
             if (LGameList.SelectedItem != null)
@@ -65,6 +69,7 @@ namespace WoWRealmlistManager
             }
         }
 
+        //Selects game from list and passes data to public vars
         private void BSelectG_Click(object sender, EventArgs e)
         {
             if (LGameList.SelectedItem != null)
@@ -86,6 +91,7 @@ namespace WoWRealmlistManager
             }
         }
 
+        //Renames item in list
         private void BRename_Click(object sender, EventArgs e)
         {
             if (Convert.ToString(LGameList.SelectedItem) != "")
