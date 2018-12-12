@@ -184,7 +184,7 @@
             // 
             // RealmFile
             // 
-            this.RealmFile.FileName = "openFileDialog1";
+            this.RealmFile.FileOk += new System.ComponentModel.CancelEventHandler(this.RealmFile_FileOk);
             // 
             // label2
             // 

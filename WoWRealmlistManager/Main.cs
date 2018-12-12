@@ -46,6 +46,7 @@ namespace WoWRealmlistManager
                 Form inp = new RealmlistInput();
                 game = LCName.Text;
                 inp.ShowDialog();
+                RLList.Items.Clear();
                 if (RealmlistInput.RealmInput.filename != "")
                 {
                     string addval = RealmlistInput.RealmInput.rli;
@@ -187,6 +188,11 @@ namespace WoWRealmlistManager
             {
                 MessageBox.Show("Please select a client", "Input error");
             }
+        }
+
+        private void RealmFile_FileOk(object sender, CancelEventArgs e)
+        {
+
         }
     }
 }
